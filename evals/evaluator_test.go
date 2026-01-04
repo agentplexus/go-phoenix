@@ -72,8 +72,9 @@ func TestEvaluator_Evaluate_NoRecording(t *testing.T) {
 	if result.Scores[0].Score != 0.85 {
 		t.Errorf("expected score 0.85, got %f", result.Scores[0].Score)
 	}
-	if result.Duration == 0 {
-		t.Error("expected non-zero duration")
+	// Note: Duration may be 0 on Windows due to lower timer resolution
+	if result.Duration < 0 {
+		t.Error("expected non-negative duration")
 	}
 }
 
