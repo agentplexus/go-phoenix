@@ -1,5 +1,12 @@
 # Go SDK for Arize Phoenix
 
+[![Build Status][build-status-svg]][build-status-url]
+[![Lint Status][lint-status-svg]][lint-status-url]
+[![Go Report Card][goreport-svg]][goreport-url]
+[![Docs][docs-godoc-svg]][docs-godoc-url]
+[![Visualization][viz-svg]][viz-url]
+[![License][license-svg]][license-url]
+
 Go SDK for [Arize Phoenix](https://phoenix.arize.com/) - an open-source observability platform for LLM applications.
 
 ## Installation
@@ -302,3 +309,18 @@ go test -v ./llmops/
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
+
+ [build-status-svg]: https://github.com/agentplexus/go-phoenix/actions/workflows/ci.yaml/badge.svg?branch=main
+ [build-status-url]: https://github.com/agentplexus/go-phoenix/actions/workflows/ci.yaml
+ [lint-status-svg]: https://github.com/agentplexus/go-phoenix/actions/workflows/lint.yaml/badge.svg?branch=main
+ [lint-status-url]: https://github.com/agentplexus/go-phoenix/actions/workflows/lint.yaml
+ [goreport-svg]: https://goreportcard.com/badge/github.com/agentplexus/go-phoenix
+ [goreport-url]: https://goreportcard.com/report/github.com/agentplexus/go-phoenix
+ [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/agentplexus/go-phoenix
+ [docs-godoc-url]: https://pkg.go.dev/github.com/agentplexus/go-phoenix
+ [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
+ [license-url]: https://github.com/agentplexus/go-phoenix/blob/master/LICENSE
+ [used-by-svg]: https://sourcegraph.com/github.com/agentplexus/go-phoenix/-/badge.svg
+ [used-by-url]: https://sourcegraph.com/github.com/agentplexus/go-phoenix?badge
+ [version-svg]: https://img.shields.io/github/v/release/agentplexus/go-phoenix
+ [version-url]: https://github.com/agentplexus/go-phoenix/releases
