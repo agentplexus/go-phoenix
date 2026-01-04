@@ -1,0 +1,17 @@
+.DS_Store
+.env
+_*
+*.tar
+coverage.txt
+debug.test
+main
+main.zip
+
+# Test binaries
+*.test
+
+# Example binaries
+examples/basic/basic
+examples/otel-tracing/otel-tracing
+basic
+otel-tracing
