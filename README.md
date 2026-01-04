@@ -318,6 +318,8 @@ MIT License - see [LICENSE](LICENSE) for details.
  [goreport-url]: https://goreportcard.com/report/github.com/agentplexus/go-phoenix
  [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/agentplexus/go-phoenix
  [docs-godoc-url]: https://pkg.go.dev/github.com/agentplexus/go-phoenix
+ [viz-svg]: https://img.shields.io/badge/visualizaton-Go-blue.svg
+ [viz-url]: https://mango-dune-07a8b7110.1.azurestaticapps.net/?repo=grokify%2Fgo-phoenix
  [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
  [license-url]: https://github.com/agentplexus/go-phoenix/blob/master/LICENSE
  [used-by-svg]: https://sourcegraph.com/github.com/agentplexus/go-phoenix/-/badge.svg
