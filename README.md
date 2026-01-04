@@ -1,4 +1,4 @@
-# go-phoenix
+# Go SDK for Arize Phoenix
 
 Go SDK for [Arize Phoenix](https://phoenix.arize.com/) - an open-source observability platform for LLM applications.
 
