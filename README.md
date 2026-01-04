@@ -293,9 +293,9 @@ func main() {
 # Skip tests when no API key is set
 go test -v ./llmops/
 
-# Run tests with API key
+# Run tests with Phoenix Cloud
 export PHOENIX_API_KEY=your-api-key
-export PHOENIX_COLLECTOR_ENDPOINT=https://app.phoenix.arize.com  # optional
+export PHOENIX_SPACE_ID=your-space-id
 go test -v ./llmops/
 ```
 

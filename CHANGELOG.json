@@ -1,0 +1,24 @@
+{
+  "ir_version": "1.0",
+  "project": "go-phoenix",
+  "repository": "https://github.com/agentplexus/go-phoenix",
+  "releases": [
+    {
+      "version": "0.1.0",
+      "date": "2026-01-04",
+      "added": [
+        { "description": "OpenTelemetry integration (`otel` package) with OTLP HTTP exporter" },
+        { "description": "Phoenix Cloud support via `PHOENIX_API_KEY` and `PHOENIX_SPACE_ID` environment variables" },
+        { "description": "OpenInference semantic conventions for LLM observability attributes" },
+        { "description": "Batch and sync span processing modes" },
+        { "description": "REST API client for Projects, Spans, Datasets, Experiments, Prompts, Annotations" },
+        { "description": "Evaluation framework (`evals` package) for running metrics on LLM outputs" },
+        { "description": "omniobserve/llmops Provider implementation for unified observability interface" },
+        { "description": "OpenInference span kinds: LLM, Chain, Tool, Agent, Retriever, Embedding, Reranker, Guardrail" },
+        { "description": "Prompt versioning and tagging support" },
+        { "description": "Span and trace-level annotations" },
+        { "description": "Integration tests for Phoenix Cloud" }
+      ]
+    }
+  ]
+}
