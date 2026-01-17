@@ -2,22 +2,34 @@
   "ir_version": "1.0",
   "project": "go-phoenix",
   "repository": "https://github.com/agentplexus/go-phoenix",
+  "versioning": "semver",
+  "commit_convention": "conventional",
   "releases": [
+    {
+      "version": "0.1.1",
+      "date": "2026-01-17",
+      "changed": [
+        { "description": "Updated Go module dependencies", "commit": "aacc260" }
+      ]
+    },
     {
       "version": "0.1.0",
       "date": "2026-01-04",
       "added": [
-        { "description": "OpenTelemetry integration (`otel` package) with OTLP HTTP exporter" },
-        { "description": "Phoenix Cloud support via `PHOENIX_API_KEY` and `PHOENIX_SPACE_ID` environment variables" },
-        { "description": "OpenInference semantic conventions for LLM observability attributes" },
-        { "description": "Batch and sync span processing modes" },
-        { "description": "REST API client for Projects, Spans, Datasets, Experiments, Prompts, Annotations" },
-        { "description": "Evaluation framework (`evals` package) for running metrics on LLM outputs" },
-        { "description": "omniobserve/llmops Provider implementation for unified observability interface" },
-        { "description": "OpenInference span kinds: LLM, Chain, Tool, Agent, Retriever, Embedding, Reranker, Guardrail" },
-        { "description": "Prompt versioning and tagging support" },
-        { "description": "Span and trace-level annotations" },
-        { "description": "Integration tests for Phoenix Cloud" }
+        { "description": "OpenTelemetry integration (`otel` package) with OTLP HTTP exporter", "commit": "bcd0e2f" },
+        { "description": "Phoenix Cloud support via `PHOENIX_API_KEY` and `PHOENIX_SPACE_ID` environment variables", "commit": "bcd0e2f" },
+        { "description": "OpenInference semantic conventions for LLM observability attributes", "commit": "bcd0e2f" },
+        { "description": "Batch and sync span processing modes", "commit": "bcd0e2f" },
+        { "description": "REST API client for Projects, Spans, Datasets, Experiments, Prompts, Annotations", "commit": "bcd0e2f" },
+        { "description": "Evaluation framework (`evals` package) for running metrics on LLM outputs", "commit": "bcd0e2f" },
+        { "description": "omniobserve/llmops Provider implementation for unified observability interface", "commit": "bcd0e2f" },
+        { "description": "OpenInference span kinds: LLM, Chain, Tool, Agent, Retriever, Embedding, Reranker, Guardrail", "commit": "bcd0e2f" },
+        { "description": "Prompt versioning and tagging support", "commit": "bcd0e2f" },
+        { "description": "Span and trace-level annotations", "commit": "bcd0e2f" },
+        { "description": "Integration tests for Phoenix Cloud", "commit": "bcd0e2f" }
+      ],
+      "fixed": [
+        { "description": "Handle zero duration on Windows in tests", "commit": "6a9b04a" }
       ]
     }
   ]
